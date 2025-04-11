@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificar Notas</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/menu.css">
+  <link rel="stylesheet" href="/css/darkmodo.css">
+  <link rel="stylesheet" href="/css/login.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <section class="pai-main">
+        
+        <nav class="menu-lateral"> 
+            <div class="btn-expandir">
+                <i class="bi bi-list" id="expandirMenu"></i>
+            </div>
+            <ul>
+                <li class="item-menu">
+                    <a href="index.html">
+                        <span class="icon">
+                            <i class="bi bi-house-door"></i>
+                        </span>
+                        <span class="txt-link">Home</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="bi bi-person-circle"></i>
+                        </span>
+                        <span class="txt-link">Conta</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="container">
+            <h1 class="titulo">Calculo das atividades FAM</h1>
+            <section class="textInputCapa">
+                <label for="notaAO1">Nota AO1:</label>
+                <input class="textInput" type="number" id="notaAO1" placeholder="Digite a soma das atividades AO1">
+                <label for="notaAO2">Nota AO2:</label>
+                <input class="textInput" type="number" id="notaAO2" placeholder="Digite a nota da AO2">
+            </section>
+            <button id="calcular">Calcular</button>
+            <p id="resultado"></p>
+        </main>
+    </section>
+    <footer></footer>
+    <script src="/js/index.js"></script>
+    <script src="/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+/*MENU LATERAL*/
+
+nav.menu-lateral {
+    overflow: hidden;
+    transition: 1s;
+    position: fixed;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 40px 0px 40px 1%;
+    box-shadow: 3px 0 0 #080c31;
+    
+}
+
+nav.menu-lateral.expandir {
+    width: 250px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i {
+    color: #080c31;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.ativo {
+    background-color: #f38224;
+}
+
+ul li.item-menu:hover {
+    background-color: #f38224;
+    transition: 1s;
+}
+
+ul li.item-menu a{
+    color: #080c31;
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 8px 4%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 28px;
+    transition: 1s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 8px;
+    opacity: 1;
+
+}
+
+.icon > i {
+    margin-left: 8px;
+    font-size: 30px;
+    
+}
