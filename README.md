@@ -12,35 +12,13 @@ Na FAM, há quatro atividades AO1 e uma atividade AO2. As quatro primeiras ativi
 
 ## 🚀 Como executar o projeto
 
-1. Faça um `git clone` do projeto.
+1. Clique no Deploy
 
-[guia de como fazer git clone no GitHub](https://www.alura.com.br/artigos/clonando-repositorio-git-github)
-
-2. Abra o Visual Studio Code.
-3. Clique em File.
-   
-![Atividades-FAM - Visual Studio Code 11_04_2025 14_20_49](https://github.com/user-attachments/assets/a7b1d3a5-fa8d-4d48-aecc-086f0e4a0129)
-
-4. Clique em Open Folder.
-
-![Atividades-FAM - Visual Studio Code 11_04_2025 14_21_19](https://github.com/user-attachments/assets/4a4432c2-488b-47fa-a348-d4ac93947cb6)
-
-5. Abrar a pasta do projeto na pasta que você salvou ele.
-6. Clique em Go Live no seu Visual Studio Code.
-
-![Atividades-FAM - Visual Studio Code 11_04_2025 14_21_48](https://github.com/user-attachments/assets/29eb60f6-179c-4d5e-a20d-914655bb0a4e)
-
-7. Faça o Login `client` Senha `admin`, porque ainda não temos banco de dados.
-
-![Home - Pessoal — Microsoft​ Edge 11_04_2025 14_19_13](https://github.com/user-attachments/assets/4412669b-3bf7-4a55-8a5c-c677b20361fa)
-
+[![Deploy to Vercel](https://vercel.com/button)](https://calculando-notas-fam.vercel.app/)
 
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta:
-[VSCode](https://code.visualstudio.com/)
-
-Logo após instalar a extensão Live Server.
+[![Computador](https://img.shields.io/badge/Computadores-Laptop-blue)](https://calculando-notas-fam.vercel.app/)
 
 ---
 
