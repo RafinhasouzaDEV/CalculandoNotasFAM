@@ -34,11 +34,11 @@ ul {
 }
 
 ul li.ativo {
-    background-color: #f38224;
+    background-color: #4e54c8;
 }
 
 ul li.item-menu:hover {
-    background-color: #f38224;
+    background-color: #4e54c8;
     transition: 1s;
 }
 
