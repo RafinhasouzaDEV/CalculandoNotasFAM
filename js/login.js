@@ -36,11 +36,14 @@ document.getElementById("form-login").addEventListener("submit", function(event)
         alert("Por favor, preencha todos os campos.");
     } else {
         // Aqui você pode incluir a validação do usuário/senha (opcional)
-        if (usuario === "client" && senha === "admin") { // Exemplo de validação simples
-            // Redireciona para outra página
-            window.location.href = "/home.html"; // Caminho para a página de destino
+        const usuarios = JSON.parse(localStorage.getItem("usuarios") || "[]");
+        // Exemplo de validação simples
+        const usuarioValido = usuarios.find(user => user.nome === usuario && user.senha === senha);
+        if (usuarioValido) {
+            // Caminho para a página de destino
+            window.location.href = "/home.html";
         } else {
-            alert("Usuário ou senha inválidos. Tente novamente!");
+            alert("Usuário ou senha inválidos. Tente novamente ou realize o cadastro!");
         }
     }
 });

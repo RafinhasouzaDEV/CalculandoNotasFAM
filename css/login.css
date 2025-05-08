@@ -22,3 +22,15 @@ input.lembrar {
 #esqueci-senha:hover {
     text-decoration: underline;
 }
+
+.link-cadastro {
+    font-size: 12px;
+    color: #4e54c8;
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+}
+
+.link-cadastro:hover {
+    text-decoration: underline;
+    color: #8f94fb;
+}
